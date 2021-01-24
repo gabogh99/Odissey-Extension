@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Odyssey-Extension",
+    "version": "0.1",
+    "description": "Music player extension for youtube",
+    "minimum_chrome_version": "46",
+
+    "icons": {
+
+    },
+    "browser_action":{
+
+        "default_popup": "popup.html"
+    },
+    "omnibox": {"keyword" : "@Odissey"}
+    
+}

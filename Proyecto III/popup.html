@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Odissey</title>
+        <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="popup.css">
+    </head>
+    <body>
+
+       <div class="main">
+            <p id="logo"></p>
+
+
+
+        <div class="left">
+
+        <!--  song image  -->
+            <img id="track_image">
+            <p id="volumen_show">90</p>
+
+            <i class="fa fa-volume-up" aria-hidden="true" id="volumen_icon" onclick=
+                "mute_sound()"></i>
+            <input type="range" min=0 max="100" value="90"  id="volumen">
+        </div>
+       </div>
+
+       <div class ="right">
+
+            <div class="show_song_no">
+                <p id="present">1 /</p>
+                <p></p>
+                <p id="total"> 5</p>
+            </div>
+
+            <!--song title-->
+            <p id="title">title.mp3</p>
+            <p id="artist">Artist name</p>
+
+            <!--- middle part --->
+                    <div class="middle">
+                    <button id="prev_song"></button>
+                    <button  id="justplay"></i></button>
+                    <button  id="next_song"></button>
+            </div>
+
+            <!--song duration part-->
+
+            <div class ="duration">
+                <input type="range" min="0" max="100" value="0" id="duration_slider" >
+            </div>
+
+
+       </div>
+
+
+        <link rel="stylesheet" href="popup.css">
+        <script src="script.js"></script>
+        <script src="js/jquery.min.js"></script>
+
+    </body>
+</html>
